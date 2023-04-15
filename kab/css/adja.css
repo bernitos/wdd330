@@ -23,6 +23,34 @@ picture img.in {
 }
 
 
+/*------------------------Start Top button styling-----------------*/
+#topbutton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 28px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius:100px 100px 12px 12px;
+    font-family:'Edu NSW ACT Foundation',cursive;
+   
+  }
+  
+  #topbutton:hover {
+    background-color: #555;
+    color:orange;
+  }
+  
+  
+  
+  /*-----------------------End Top button styling-----------------*/
+
 
 @keyframes img-come-in {
     from {
